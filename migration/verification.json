@@ -1,0 +1,108 @@
+{
+  "purpose": "Explicitly authorized public migration snapshot, not a scheduled backup replacement",
+  "sourceExportedAt": "2026-11-04T02:39:25.768Z",
+  "snapshotContentSha256": "799d40c7dd9b8b7c81e3c3db98fca700b45551d51f76b8b11a05f6da0b37fb63",
+  "archiveSha256": "473c2410b5e529f8d238d783e8da45ac47751743b73756a39b23ee09a2f56a76",
+  "archiveBytes": 359083,
+  "comparison": {
+    "decision": "unchanged",
+    "reasons": [],
+    "warnings": [],
+    "contentSha256": "799d40c7dd9b8b7c81e3c3db98fca700b45551d51f76b8b11a05f6da0b37fb63",
+    "summary": {
+      "tables": {
+        "custom_lexicon": 3744,
+        "daily_plans": 1,
+        "mark_operations": 58,
+        "plan_config": 1,
+        "reserved_words": 269,
+        "review_batches": 25,
+        "review_events": 42,
+        "scheduled_days": 6,
+        "user_state": 1,
+        "word_marks": 36,
+        "word_progress": 33
+      },
+      "wordCount": 3966,
+      "sceneCount": 18,
+      "learnedCount": 33,
+      "solidCount": 0,
+      "progressCount": 33,
+      "markCount": 36,
+      "hardCountTotal": "48",
+      "reviewEventCount": 42,
+      "reviewBatchCount": 25,
+      "markOperationCount": 58,
+      "scheduledDayCount": 6,
+      "reservedWordCount": 269,
+      "customWordCount": 3742,
+      "customSceneCount": 2
+    }
+  },
+  "archiveComparison": {
+    "decision": "unchanged",
+    "reasons": [],
+    "warnings": [],
+    "contentSha256": "799d40c7dd9b8b7c81e3c3db98fca700b45551d51f76b8b11a05f6da0b37fb63",
+    "summary": {
+      "tables": {
+        "custom_lexicon": 3744,
+        "daily_plans": 1,
+        "mark_operations": 58,
+        "plan_config": 1,
+        "reserved_words": 269,
+        "review_batches": 25,
+        "review_events": 42,
+        "scheduled_days": 6,
+        "user_state": 1,
+        "word_marks": 36,
+        "word_progress": 33
+      },
+      "wordCount": 3966,
+      "sceneCount": 18,
+      "learnedCount": 33,
+      "solidCount": 0,
+      "progressCount": 33,
+      "markCount": 36,
+      "hardCountTotal": "48",
+      "reviewEventCount": 42,
+      "reviewBatchCount": 25,
+      "markOperationCount": 58,
+      "scheduledDayCount": 6,
+      "reservedWordCount": 269,
+      "customWordCount": 3742,
+      "customSceneCount": 2
+    }
+  },
+  "isolatedRestore": {
+    "mode": "isolated-sqlite-drill",
+    "restored": true,
+    "quickCheck": "ok",
+    "tableCount": 11,
+    "rowCounts": {
+      "custom_lexicon": 3744,
+      "daily_plans": 1,
+      "mark_operations": 58,
+      "plan_config": 1,
+      "reserved_words": 269,
+      "review_batches": 25,
+      "review_events": 42,
+      "scheduled_days": 6,
+      "user_state": 1,
+      "word_marks": 36,
+      "word_progress": 33
+    },
+    "contentSha256": "799d40c7dd9b8b7c81e3c3db98fca700b45551d51f76b8b11a05f6da0b37fb63",
+    "temporaryFilesRemoved": true
+  },
+  "toolSha256": {
+    "verify-backup.mjs": "f553a9365f2964233c66a722f56590a2704b83bbf61058dc4413434e1c8b44fa",
+    "restore-backup.mjs": "a859b434940c11b59e65f91617b97855bdf71c332a1f2d360a572c761bc7e6a4",
+    "pack-backup.mjs": "46286f7419e923c1c8ecad096794cf4be75e66a3ef349a3b5b675b8a027f06d2"
+  },
+  "omissions": [
+    "Browser offline/outbox operations not yet acknowledged by the server",
+    "Runtime API keys and access credentials",
+    "External scheduler and Space service configuration"
+  ]
+}

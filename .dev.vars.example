@@ -1,0 +1,4 @@
+# OPTIONAL local Wrangler/Vinext Worker secrets. Copy to .dev.vars, not public/.
+# This file contains no credential. Leave blank for offline fallback plans.
+# Real values are server-only and must never be committed.
+DEEPSEEK_API_KEY=

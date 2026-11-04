@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793409899991,
+      "tag": "0000_normal_cassandra_nova",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793412595513,
+      "tag": "0001_aromatic_tiger_shark",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793427664958,
+      "tag": "0002_loose_energizer",
+      "breakpoints": true
+    }
+  ]
+}

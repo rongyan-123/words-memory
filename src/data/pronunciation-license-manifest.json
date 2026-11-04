@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ipa-dict",
+    "url": "https://raw.githubusercontent.com/open-dict-data/ipa-dict/43c3570eb3553bdd19fccd2bd0091534889af023/LICENSE",
+    "licenseTextSha256": "2c6a7e4c71f834a8fc0114fa4f65ca85e80bc4b4dc7ed08746963a09a7b0d177"
+  },
+  {
+    "name": "cmudict-ipa",
+    "url": "https://raw.githubusercontent.com/lingz/cmudict-ipa/629483e9a7fa5b9ff11bb83e3fda6dcc25c5c511/LICENSE",
+    "licenseTextSha256": "a504bede5a50d1ac19c38984d9bb33371927f72e714946a963bf40bb2de21188"
+  },
+  {
+    "name": "syllabify (license header only)",
+    "url": "https://raw.githubusercontent.com/kylebgorman/syllabify/d816db784436e9de87ec1ef9bd11b8e229853710/syllabify.py",
+    "licenseTextSha256": "20318769d8694a14abb3b5c0f98ddd49105a22c9a38e75a2889da9f1bd08f737"
+  },
+  {
+    "name": "CMU Pronouncing Dictionary",
+    "url": "https://raw.githubusercontent.com/cmusphinx/cmudict/74790861f652b15e4ac49015a90074ad62a27690/LICENSE",
+    "licenseTextSha256": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a"
+  }
+]

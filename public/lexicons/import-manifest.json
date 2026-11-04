@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "importFile": "/lexicons/final-import.json",
+  "sha256": "5c531442ccbfbd09d225ecc4340dc2444dcdc29cb9623b68f9106809ffa72c26",
+  "bytes": 1101829,
+  "newWords": 3742,
+  "totalWithSeed": 3966,
+  "cet4CanonicalMembers": 3847,
+  "cet4RawSourceMembers": 3849,
+  "seedCet4Overlap": 129,
+  "scenes": {
+    "exp-cet4-ecdict": 3847,
+    "exp-cloud-native": 25
+  },
+  "sourceSha256": {
+    "lexicon-new-only.json": "77391cc759b88f4a54917dd020af388f9596746d1f7510a07a39773ae47a1f69",
+    "lexicon-metadata.json": "aa8c0dea5e2d5ab3cdb2f1d5d29faefdf666b12423d635b542ef3c5e461b10d0"
+  },
+  "auditFiles": {
+    "source-member-mapping.json": {
+      "sha256": "43383a00a388d72f5e3b41e563de04328008a7dc99da44c0b74c25bf9a743b0d",
+      "bytes": 300504
+    },
+    "cleaning-report.json": {
+      "sha256": "8c54aee2982a2854e31f805847a065922e05ca6fe7ad4b3fcd6b9ebc291e07c3",
+      "bytes": 1289
+    }
+  },
+  "note": "Only new words and two new custom scenes are imported. Existing seed IDs are referenced, never rewritten. No progress, settings, frozen days, or reservations are included."
+}
